@@ -20,7 +20,7 @@ export default function Home() {
           technology and current events.
         </p>
         <p>
-          Whether you're a student conducting research, a professional seeking
+          Whether youre a student conducting research, a professional seeking
           credible sources, or simply curious about the world around you,
           FactHub is here to help you discover the truth. Our community of
           FactSharers is dedicated to promoting transparency, critical
@@ -28,7 +28,7 @@ export default function Home() {
         </p>
         <p>
           Explore our collection of facts, engage with fellow FactSharers, and
-          join us in the pursuit of truth and enlightenment. Together, let's
+          join us in the pursuit of truth and enlightenment. Together, lets
           build a world where facts matter and knowledge prevails. Start your
           journey with FactHub today!
         </p>
