@@ -35,6 +35,8 @@ span{
 .image{
   display: flex;
   align-items: center;
+  width: auto;
+   height: auto;
 }
 
 .arabic-text {

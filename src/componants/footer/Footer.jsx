@@ -1,10 +1,10 @@
 
 
-import {Reem_Kufi } from "next/font/google";
-import style from "@/componants/footer/footer.module.css"
+// import {Reem_Kufi} from "next/font/google";
+import style from "./footer.module.css"
 
 
-const reem = Reem_Kufi({ subsets: ["arabic"] });
+// const reem = Reem_Kufi({ subsets: ["arabic"] });
 
 
 

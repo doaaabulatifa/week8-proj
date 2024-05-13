@@ -1,10 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/componants/header/Header";
-import Footer from "@/componants/footer/Footer";
+import Header from "../componants/header/Header"
+import Footer from "../componants/footer/Footer";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-// const reem = Reem_Kufi({ subsets: ["arabic"] });
 
 export const metadata = {
   title: "FactHub",

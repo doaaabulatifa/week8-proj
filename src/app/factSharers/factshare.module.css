@@ -1,0 +1,20 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

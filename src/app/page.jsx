@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import factsimg from "@/../public/factsimg.jpg";
+import factsimg from "../../public/factsimg.jpg";
 import Link from "next/link";
 import {Reem_Kufi } from "next/font/google";
 
@@ -36,7 +36,7 @@ export default function Home() {
       
         <div className="image-container">
         <Link href="/facts">
-          <Image className="image"  src={factsimg} alt="fact image" width={500} height={500} />
+          <Image className="image"  src={factsimg} alt="fact image"   priority={true} />
           </Link>
         </div>
    

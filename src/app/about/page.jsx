@@ -1,5 +1,4 @@
 
-
 export default function About() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -21,10 +20,10 @@ export default function About() {
         </p>
         <h4 className="text-2xl font-bold mb-4">Our Community</h4>
         <p className="mb-6">
-          FactHub is more than just a website – it's a community of FactSharers
-          dedicated to the pursuit of truth and enlightenment. Whether you're a
+          FactHub is more than just a website its a community of FactSharers
+          dedicated to the pursuit of truth and enlightenment. Whether youre a
           student, a professional, or simply curious about the world around
-          you, you're welcome to join our community and contribute to the
+          you, youre welcome to join our community and contribute to the
           exchange of knowledge.
         </p>
         <h4 className="text-2xl font-bold mb-4">Our Commitment</h4>
@@ -36,7 +35,7 @@ export default function About() {
           positive change.
         </p>
         <p>
-          Thank you for being part of the FactHub community. Together, let's
+          Thank you for being part of the FactHub community. Together, lets
           continue our journey in the pursuit of truth and knowledge.
         </p>
       </div>
