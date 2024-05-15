@@ -8,7 +8,7 @@ export default function AddComment() {
       const name = formData.get("user_name");
       const description = formData.get("comment");
   
-      await sql`INSERT INTO comments (user_name, comment) values (${user_name}, ${comment})`;
+      await sql`INSERT INTO comments (comment) values ( ${comment})`;
   
       revalidatePath("/");
   
@@ -18,7 +18,7 @@ export default function AddComment() {
     return (
       
         <form action={handleAddComment}>
-        <label htmlFor="name">Your name</label>
+        <label htmlFor="user_name">Your name</label>
         <input name="user_name" id="user_name" placeholder="Name" />
         <label htmlFor="comment">comment</label>
         <input name="comment" id="comment" placeholder="comment" />
