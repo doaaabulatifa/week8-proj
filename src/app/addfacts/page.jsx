@@ -24,7 +24,7 @@ export default function AddFact() {
   return (
     <div>
       <h2>Add your fact!</h2>
-      <form onSubmit={handleAddFact}>
+      <form action={handleAddFact}>
         <label htmlFor="title">Title</label>
         <input type="text" name="title" id="title" placeholder="Title" required />
 
