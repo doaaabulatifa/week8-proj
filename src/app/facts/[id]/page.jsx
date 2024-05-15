@@ -2,6 +2,7 @@
 import { sql } from "@vercel/postgres";
 import styles from "./Page.module.css";
 import AddComment from "../../../componants/comments/AddComment";
+import ShowComment from "../../../componants/showcomment/ShowComment";
 
 export async function generateMetadata({ params }) {
   const factId = params.id;
@@ -27,6 +28,7 @@ export default async function Page({ params }) {
       <p className={styles.link}>{fact.link}</p>
     </div>
     <AddComment />
+    <ShowComment />
    
     </>
   );
