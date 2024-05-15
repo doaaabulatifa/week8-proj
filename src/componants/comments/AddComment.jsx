@@ -13,9 +13,9 @@ export default function AddComment() {
   
       await sql`INSERT INTO comments (comment_text,user_name) values ( ${comment_text},${user_name})`;
   
-      revalidatePath("/");
+      revalidatePath("/facts");
   
-      redirect("/");
+      redirect("/facts");
     }
   
     return (
