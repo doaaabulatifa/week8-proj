@@ -1,5 +1,6 @@
 import { sql } from "@vercel/postgres";
 import styles from "./Page.module.css";
+import AddComment from "../../../componants/comments/AddComment";
 
 export async function generateMetadata({ params }) {
   const factId = params.id;
@@ -24,7 +25,14 @@ export default async function Page({ params }) {
       <p className={styles.content}>{fact.content}</p>
       <p className={styles.link}>{fact.link}</p>
     </div>
-    <h5>test</h5>
+    <AddComment />
+   
     </>
   );
 }
+// -- CREATE TABLE comments (
+//   --     comment_id SERIAL PRIMARY KEY,
+//   --     fact_id INT REFERENCES facts(fact_id),
+//   --     user_id INT REFERENCES users(user_id),
+//   --     comment_text TEXT NOT NULL
+//   -- );
