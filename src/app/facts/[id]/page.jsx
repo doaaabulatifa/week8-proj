@@ -17,11 +17,14 @@ export default async function Page({ params }) {
   const fact = result.rows[0];
   
   return (
+    <>
     <div className={styles.container}>
       <p className={styles.id}>{fact.id}</p>
       <h2 className={styles.title}>{fact.title}</h2>
       <p className={styles.content}>{fact.content}</p>
       <p className={styles.link}>{fact.link}</p>
     </div>
+    <h5>test</h5>
+    </>
   );
 }

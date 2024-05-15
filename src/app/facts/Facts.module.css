@@ -28,6 +28,11 @@
     border-radius: 2px;
     background-color: #ccc;
   }
+  .h2{
+    color:#52063b;
+    font-weight: bold;
+    font-style: italic;
+  }
   
   .title {
     font-size: 20px;
